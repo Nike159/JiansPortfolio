@@ -7,7 +7,7 @@ export const MenuItems = [
     },
     {
         title : "Skills",
-        url : "/about",
+        url : "/skills",
         cName : "nav-links",
         icon : "fa-solid fa-bolt"
     },
