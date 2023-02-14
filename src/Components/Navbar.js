@@ -13,7 +13,7 @@ const Logo = () => {
   };
 
 class Navbar extends Component{
-    state = { clicked: "flase" };
+    state = { clicked: false };
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked})
     }

@@ -4,6 +4,7 @@ import Skills from './Routes.js/Skills';
 import Contact from './Routes.js/Contact';
 import Projects from './Routes.js/Projects';
 import { Route, Routes } from "react-router-dom";
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Route path="/skills" element={<Skills />}/>
         <Route path="/contact" element={<Contact />}/>
       </Routes>
-      
+      <Navbar />
     </div>
   );
 }
