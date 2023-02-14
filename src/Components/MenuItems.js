@@ -25,7 +25,10 @@ export const MenuItems = [
     },
 ];
 
-export const Projects = [
+export const
+
+
+Projects = [
     {
         id: 1,
         title: "Blog Project",
