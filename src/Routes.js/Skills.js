@@ -1,10 +1,17 @@
 import Navbar from "../Components/Navbar"
+import Hero from "../Components/Hero";
+import SkillsImg from "../Components/assets/SkillsImg.jpg";
 
 function Skills (){
     return(
         <>
         <Navbar />
-            <h1>This is Skills</h1>
+        <Hero 
+        cName="hero"
+        heroImg={SkillsImg}
+        title="Skills"
+        text="My Projects"
+        />
         </>
     )
 }

@@ -1,10 +1,17 @@
 import Navbar from "../Components/Navbar"
+import Hero from "../Components/Hero";
+import ContactImg from "../Components/assets/ContactImg.jpg"
 
 function Contact (){
     return(
         <>
         <Navbar />
-            <h1>This is Contact</h1>
+        <Hero 
+        cName="hero"
+        heroImg={ContactImg}
+        title="Contacts"
+        text="My Projects"
+        />
         </>
     )
 }

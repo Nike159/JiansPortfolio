@@ -11,7 +11,7 @@ const Logo = () => {
       </div>
     );
   };
-
+  
 class Navbar extends Component{
     state = { clicked: false };
     handleClick = () => {
@@ -20,7 +20,9 @@ class Navbar extends Component{
     render(){     
         return(         
             <nav className='NavbarItems'>
-                <div className='navbar-logo'><Logo /></div>
+                <div className='navbar-logo'>
+                <Logo />
+                </div>
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
                     
