@@ -1,5 +1,4 @@
 import './App.css';
-import Home from './Routes.js/Home';
 import About from './Routes.js/About';
 import Skills from './Routes.js/Skills';
 import Contact from './Routes.js/Contact';
@@ -12,8 +11,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/"element={<Home />}/>
-        <Route path="/about"element={<About />}/>
+        <Route path="/"element={<About />}/>
         <Route path="/projects"element={<Projects />}/>
         <Route path="/skills" element={<Skills />}/>
         <Route path="/contact" element={<Contact />}/>
