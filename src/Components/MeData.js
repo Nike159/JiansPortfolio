@@ -4,7 +4,7 @@ import './MeStyles.css'
 class MeData extends Component{
     render(){
         return(
-            <div className="Saying1">
+            <div className={this.props.className}>
                 <div className="Info">
                     <h2>{this.props.heading}</h2>
                     <p>{this.props.paragraph}</p>
