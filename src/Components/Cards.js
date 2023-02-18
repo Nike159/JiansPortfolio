@@ -1,6 +1,8 @@
 import './CardsStyles.css';
 import CardData from './CardData';
 import Basketball from '../Components/assets/Basketball.jpg';
+import Weather from '../Components/assets/Weather.jpg';
+import Blog from '../Components/assets/Blog.jpg';
 
 function Cards() {
     return(
@@ -13,16 +15,19 @@ function Cards() {
                 image={Basketball}
                 heading="NBA Project"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+                url="https://github.com/Nike159/NBA-app"
             />
             <CardData 
-                image={Basketball}
-                heading="NBA Project"
+                image={Weather}
+                heading="Weather App"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+                url="https://github.com/Nike159/Weather-App"
             />
              <CardData 
-                image={Basketball}
-                heading="NBA Project"
+                image={Blog}
+                heading="Blog Project"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+                url="https://github.com/Nike159/BlogProject"
             />
         </div>
         
