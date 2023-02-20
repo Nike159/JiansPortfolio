@@ -1,0 +1,50 @@
+.container{
+    margin-bottom: 30vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0;
+    margin-top: 5vh;
+
+  }
+  .image-list {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style the images */
+  .image-list img {
+    width: 8rem;
+    height: 150px;
+    margin: 0rem 2rem;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+  }
+  
+  /* Style the images on hover */
+  .image-list img:hover {
+    transform: scale(1.1);
+    margin: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+.pop-up{
+    margin: none;
+    padding: 0px;
+    
+}
+.caption{
+    margin-top: 5px;
+    font-size: 18px;
+    background-color: red;
+  }
+.list-box{
+    background-color: green;
+}
+.list-item{
+    list-style: none;
+    color: blue;
+}

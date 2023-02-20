@@ -1,6 +1,7 @@
 import Navbar from "../Components/Navbar"
 import Hero from "../Components/Hero";
 import SkillsImg from "../Components/assets/SkillsImg.jpg";
+import IconData from "../Components/IconData";
 
 function Skills (){
     return(
@@ -12,6 +13,7 @@ function Skills (){
         title="Skills"
         text="My Projects"
         />
+        <IconData />
         </>
     )
 }
