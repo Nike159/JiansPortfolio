@@ -1,50 +1,61 @@
 .container{
-    margin-bottom: 30vh;
+  padding-top: 1.75rem;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
 }
 
 .title {
+  margin-top: 10vh;
+  color: black;
     text-align: center;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
     padding: 20px 0;
-    margin-top: 5vh;
 
-  }
-  .image-list {
-    margin-top: 10vh;
+}
+.image-list {
+    height: 20vh;
+    margin-top: 20vh;
     display: flex;
-    justify-content: center;
-  }
+    justify-content: space-around;
+}
   
-  /* Style the images */
-  .image-list img {
+.image-list img {
     width: 8rem;
     height: 150px;
     margin: 0rem 2rem;
     border-radius: 10px;
     transition: all 0.5s ease;
-  }
-  
-  /* Style the images on hover */
-  .image-list img:hover {
-    transform: scale(1.1);
-    margin: none;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-  }
+}
+
+.image-list img:hover {
+    transform: scale(1.2);
+    border-radius: 26px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #5a5a5a,
+                 -20px -20px 60px #ffffff;
+}
 .pop-up{
-    margin: none;
-    padding: 0px;
-    
+    margin-top: 5vh;
+    border-radius: 26px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #5a5a5a,
+                 -20px -20px 60px #ffffff;
 }
 .caption{
     margin-top: 5px;
     font-size: 18px;
-    background-color: red;
-  }
+    text-decoration: underline;
+ }
 .list-box{
-    background-color: green;
+    background-color: transparent;
 }
 .list-item{
     list-style: none;
-    color: blue;
+    color: black;
 }
+li {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }

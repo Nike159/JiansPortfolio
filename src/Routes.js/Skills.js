@@ -11,7 +11,7 @@ function Skills (){
         cName="hero"
         heroImg={SkillsImg}
         title="Skills"
-        text="My Projects"
+        text="Languages Learned"
         />
         <IconData />
         </>

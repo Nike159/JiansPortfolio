@@ -12,7 +12,7 @@ function Projects (){
         cName="hero"
         heroImg={ProjectImg}
         title="Projects"
-        text="My Projects"
+        text="Check Out My Projects"
         />
         <Cards />
         </>

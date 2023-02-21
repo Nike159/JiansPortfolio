@@ -2,6 +2,7 @@ import Navbar from "../Components/Navbar"
 import Hero from "../Components/Hero";
 import Cards from "../Components/Me.js";
 
+
 function About (){
     return(
         <>

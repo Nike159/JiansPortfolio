@@ -1,6 +1,7 @@
 import Navbar from "../Components/Navbar"
 import Hero from "../Components/Hero";
 import ContactImg from "../Components/assets/ContactImg.jpg"
+import ContactForm from "../Components/ContactForm";
 
 function Contact (){
     return(
@@ -10,8 +11,9 @@ function Contact (){
         cName="hero"
         heroImg={ContactImg}
         title="Contacts"
-        text="My Projects"
+        text="Feel Free To Reach Out"
         />
+        <ContactForm />
         </>
     )
 }
