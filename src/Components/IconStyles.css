@@ -5,11 +5,12 @@
   height: 100vh;
 }
 
-.title {
+.title1{
+    font-size: 2rem;
   margin-top: 10vh;
   color: black;
     text-align: center;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
     padding: 20px 0;
 

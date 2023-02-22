@@ -1,4 +1,5 @@
 import '../Components/IconStyles.css';
+import { motion } from "framer-motion"
 import Icon from "./Icon.js"
 import RImg from "./assets/RImg.png";
 import JavascriptImg from "./assets/JavascriptImg.png";
@@ -17,15 +18,46 @@ function Icons() {
   
     return (
     <div className="container">
-        <div className="title">Languages</div>
-            <div className="image-list">
+        <motion.div 
+                        initial={{
+                            opacity:0,
+                            scale:1,
+                            x:1000
+                        }}
+                        whileInView={{
+                            opacity:1,
+                            scale:1,
+                            x:0
+                        }}
+                        transition={{
+                            duration:2,
+                            delay:0.25
+                        }}
+        className="title1">Languages
+        </motion.div>
+            <motion.div
+                        initial={{
+                            opacity:0,
+                            scale:1,
+                            x:-1000
+                        }}
+                        whileInView={{
+                            opacity:1,
+                            scale:1,
+                            x:0
+                        }}
+                        transition={{
+                            duration:2,
+                            delay:0.5
+                        }}
+             className="image-list">
                     <Icon image={RImg} listItems={list1Items} />
                     <Icon image={JavascriptImg} listItems={list2Items} />
                     <Icon image={BootstrapImg} listItems={list3Items} />
                     <Icon image={HTMLImg} listItems={list4Items} />
                     <Icon image={FigmaImg} listItems={list5Items} />
                     <Icon image={CSSImg} listItems={list6Items} />
-            </div>
+            </motion.div>
     </div>
         
     );

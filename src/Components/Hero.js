@@ -2,6 +2,7 @@ import "./HeroStyles.css";
 import { motion } from "framer-motion"
 import { AnimatePresence } from "framer-motion";
 
+
 function Hero (props){
     return(
         <>

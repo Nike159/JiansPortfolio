@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 4.5rem;
+    padding-bottom: 5rem;
 }
 .Saying1-reverse{
     display: flex;
