@@ -2,6 +2,7 @@ import Navbar from "../Components/Navbar"
 import Hero from "../Components/Hero";
 import SkillsImg from "../Components/assets/SkillsImg.jpg";
 import IconData from "../Components/IconData";
+import Footer from "../Components/Footer";
 
 function Skills (){
     return(
@@ -14,6 +15,7 @@ function Skills (){
         text="Languages Learned"
         />
         <IconData />
+        <Footer />
         </>
     )
 }

@@ -11,6 +11,7 @@ function Cards() {
             <h1>Check Out My Projects</h1>
         </div>
         <div className='card'>
+            
             <CardData 
                 image={Basketball}
                 heading="NBA Project"

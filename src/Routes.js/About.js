@@ -1,6 +1,7 @@
 import Navbar from "../Components/Navbar"
 import Hero from "../Components/Hero";
 import Cards from "../Components/Me.js";
+import Footer from "../Components/Footer";
 
 
 function About (){
@@ -14,6 +15,7 @@ function About (){
         text="Never Stop Learning"
         />
         <Cards />
+        <Footer />
         </>
     )
 }

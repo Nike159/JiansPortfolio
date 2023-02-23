@@ -1,27 +1,29 @@
 .title{
   font: bold;
-  margin-top: 5rem;
+  padding-top: 5rem;
   font-size: large;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .card{
-    margin-bottom: 2rem;
-    margin-top: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 5rem;
     display: flex;
     justify-content: space-around;
+    background-image: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.5));;
 }
 .t-card {
     display: flex;
     justify-content: center;
     position: relative;
     cursor: pointer;
-    width: 30%;
+    width: 25%;
     height: 450px;
     color: #2e2d31;
     background: rgb(151, 194, 187, 0.5);
     overflow: hidden;
     border-radius: 30px;
   }
-  .t-img{
+  .t-img img{
         width: 100%;
         height: 60vh;
         overflow: hidden;

@@ -2,6 +2,7 @@ import Navbar from "../Components/Navbar"
 import Hero from "../Components/Hero";
 import ContactImg from "../Components/assets/ContactImg.jpg"
 import ContactForm from "../Components/ContactForm";
+import Footer from "../Components/Footer";
 
 function Contact (){
     return(
@@ -14,6 +15,7 @@ function Contact (){
         text="Feel Free To Reach Out"
         />
         <ContactForm />
+        <Footer />
         </>
     )
 }

@@ -1,0 +1,94 @@
+.footer{
+    width: 100%;
+    padding: 2rem;
+    color:#dddddd;
+    background: black;
+}
+.titles {
+    animation: flow 20s infinite;
+  }
+  
+  @keyframes flow {
+    0% {
+      color: #ff2400;
+    }
+    10% {
+      color: #e81d1d;
+    }
+    20% {
+      color: #e8b71d;
+    }
+    30% {
+      color: #e3e81d;
+    }
+    40% {
+      color: #1de840;
+    }
+    50% {
+      color: #1ddde8;
+    }
+    60% {
+      color: #2b1de8;
+    }
+    70% {
+      color: #dd00f3;
+    }
+    80% {
+      color: #dd00f3;
+    }
+    90% {
+      color: #2b1de8;
+    }
+    100% {
+      color: #ff2400;
+    }
+  }
+  
+.credits{
+    text-align: end;
+    font-family: cursive;
+}
+.tinyicons i{
+    color: #dddddd;
+    font-size: 2rem;
+}
+
+.tinyicons i:hover{
+    animation: flow 10s infinite;
+  }
+  
+  @keyframes flow {
+    0% {
+      color: #ff2400;
+    }
+    10% {
+      color: #e81d1d;
+    }
+    20% {
+      color: #e8b71d;
+    }
+    30% {
+      color: #e3e81d;
+    }
+    40% {
+      color: #1de840;
+    }
+    50% {
+      color: #1ddde8;
+    }
+    60% {
+      color: #2b1de8;
+    }
+    70% {
+      color: #dd00f3;
+    }
+    80% {
+      color: #dd00f3;
+    }
+    90% {
+      color: #2b1de8;
+    }
+    100% {
+      color: #ff2400;
+    }
+  }
