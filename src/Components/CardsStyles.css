@@ -41,12 +41,10 @@
         position: absolute;
         left: 0;
         bottom: 0;
-          /* edit the width to fit card */
         width: 100%;
         padding: 5rem;
         background: grey;
         border-top-left-radius: 20px;
-          /* edit here to change the height of the content box */
         transform: translateY(200px);
         transition: transform .5s;
 }
@@ -104,7 +102,7 @@ button:active {
 }
 @media screen and (max-width: 850px){
   .card{
-    margin: 4rem 2rem;
+    padding: 4rem 2rem;
     flex-direction: column;
   }
   .t-card{
