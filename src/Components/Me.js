@@ -2,27 +2,13 @@ import './MeStyles.css'
 import MeData from './MeData';
 import Family from './assets/Family.jpg';
 import Temp from './assets/temp.webp';
-import { motion } from 'framer-motion';
+
 
 const Me = () => {
     return(
         <div className="Me">
             <h1>About Me</h1>
-            <motion.div
-                initial={{
-                    opacity:0,
-                    scale:1,
-                    x:-1000
-                }}
-                whileInView={{
-                    opacity:1,
-                    scale:1,
-                    x:0
-                }}
-                transition={{
-                    duration:2,
-            
-                }}>
+            <div>
             <MeData 
                 className="Saying1"
                 heading="Professional Life"
@@ -30,22 +16,9 @@ const Me = () => {
                 img1={Temp}
                 img2={Family}
             />
-            </motion.div>
-            <motion.div
-                initial={{
-                    opacity:0,
-                    scale:1,
-                    x:1000
-                }}
-                whileInView={{
-                    opacity:1,
-                    scale:1,
-                    x:0
-                }}
-                transition={{
-                    duration:2,
-                    delay:0.5
-                }}>
+            </div>
+            <div>
+               
             <MeData
                 className="Saying1-reverse"
                 heading="Personal Life"
@@ -53,7 +26,7 @@ const Me = () => {
                 img1={Temp}
                 img2={Family}
             />
-            </motion.div>
+            </div>
         </div>
     )
 }
