@@ -17,17 +17,20 @@ function Cards() {
                 heading="NBA Project"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
                 url="https://github.com/Nike159/NBA-app"
+                web="https://nike159.github.io/NBA-app/"
             />
             <CardData 
                 image={Weather}
                 heading="Weather App"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+                web=""
                 url="https://github.com/Nike159/Weather-App"
             />
              <CardData 
                 image={Blog}
                 heading="Blog Project"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+                web="https://nike159.github.io/BlogProject/"
                 url="https://github.com/Nike159/BlogProject"
             />
         </div>
