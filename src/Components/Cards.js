@@ -23,7 +23,7 @@ function Cards() {
                 image={Weather}
                 heading="Weather App"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
-                web=""
+                web="https://nike159.github.io/Weather-App/"
                 url="https://github.com/Nike159/Weather-App"
             />
              <CardData 

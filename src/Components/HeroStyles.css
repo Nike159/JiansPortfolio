@@ -14,7 +14,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+
   }
 .hero img {
     width: 100%;
@@ -33,7 +33,7 @@
     margin-bottom: -1rem;
     font-size: 150px;
     color: transparent;
-    -webkit-text-stroke: 1px #01959a;
+    -webkit-text-stroke: 1px wheat;
     background: url(./assets/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
@@ -49,20 +49,58 @@
     font-size: 40px;
     font-weight: 600;
 }
+.welcome {
+    padding-top: 1rem;
+}
 .welcomebtn button{
-    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    animation: flow 20s infinite;
     background-color: transparent;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 15px 25px;
     margin-right: 20px;
     border: 2px solid  #01959a;
+    cursor: pointer;
 }
+@keyframes flow {
+    0% {
+      color: #ff2400;
+    }
+    10% {
+      color: #e81d1d;
+    }
+    20% {
+      color: #e8b71d;
+    }
+    30% {
+      color: #e3e81d;
+    }
+    40% {
+      color: #1de840;
+    }
+
+    70% {
+      color: #dd00f3;
+    }
+    80% {
+      color: #dd00f3;
+    }
+    100% {
+      color: #ff2400;
+    }
+  }
 @media screen and (max-width: 800px){
     .hero-text{
-
+        color: #fff;
+        position:absolute;
+        top: 55%;
+        left: 5%;
+    
     }
     .hero-text h1{
         font-size: 100px;
+        
     }
     .hero-text p{
         font-size: 1.1rem;
@@ -71,6 +109,9 @@
     .hero img{
         width: 100%;
         height: 100vh;
+    }
+    .welcomebtn button{
+        color: black;
     }
 
 }

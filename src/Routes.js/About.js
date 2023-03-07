@@ -2,7 +2,7 @@ import Navbar from "../Components/Navbar"
 import Hero from "../Components/Hero";
 import Cards from "../Components/Me.js";
 import Footer from "../Components/Footer";
-import IntroImg from "../Components/assets/IntroImg.png";
+import Hero1 from "../Components/assets/Hero1.jpg"
 
 
 function About (){
@@ -11,7 +11,7 @@ function About (){
         <Navbar />
         <Hero 
         cName="hero"
-        heroImg={ IntroImg }
+        heroImg= { Hero1 }
         title="Jian Mei"
         text="Welcome To my Page!"
         />
